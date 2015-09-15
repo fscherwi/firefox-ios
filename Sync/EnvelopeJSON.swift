@@ -51,3 +51,9 @@ public class EnvelopeJSON {
         return 0
     }
 }
+
+extension EnvelopeJSON {
+    func asJSON() -> JSON {
+        return self.json
+    }
+}
