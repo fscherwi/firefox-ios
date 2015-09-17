@@ -62,4 +62,11 @@ private struct TempStrings {
     let alwaysSend = NSLocalizedString("Always Send", comment: "Used as a button label for crash dialog prompt")
     let dontSend = NSLocalizedString("Don't Send", comment: "Used as a button label for crash dialog prompt")
     let neverSend = NSLocalizedString("Never Send", comment: "Used as a button label for crash dialog prompt")
+
+    // Bug 1196227 - (pbmode) [Meta] Private Browsing
+    let openInNewPrivateTab = NSLocalizedString("Open In New Private Tab", tableName: "PrivateBrowsing", comment: "Context menu option for opening a link in a new private tab")
+    let closePrivateTabsSettingsOption = NSLocalizedString("Close Private Tabs", tableName: "PrivateBrowsing", comment: "Setting for closing private tabs")
+    let whenLeavingOption = NSLocalizedString("When Leaving Private Browsing", tableName: "PrivateBrowsing", comment: "Setting for when the user leaves private browsing mode")
+    let manually = NSLocalizedString("Manually", tableName: "PrivateBrowsing", comment: "Manual option")
+    let automatically = NSLocalizedString("Automatically", tableName: "PrivateBrowsing", comment: "Automatic option")
 }
